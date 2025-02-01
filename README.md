@@ -1,100 +1,100 @@
 Algorithms Mastery Repository
 
-Welcome to the Algorithms Mastery Repository, a structured collection of essential algorithms organized into Beginner, Intermediate, and Advanced levels. This repository is designed to help learners progress from fundamental concepts to advanced techniques, making it ideal for preparing for coding interviews, competitive programming, and problem-solving challenges.
+Welcome to the Algorithms Mastery Repository 🚀, a structured collection of essential algorithms organized into Beginner, Intermediate, and Advanced levels. This repository is designed to help learners progress from fundamental concepts to advanced techniques, making it ideal for preparing for coding interviews, competitive programming, and problem-solving challenges.
 
-Table of Contents
+🚀 Table of Contents
 
-Beginner Level Algorithms
+🔹 Beginner Level Algorithms
 
-Intermediate Level Algorithms
+🔹 Intermediate Level Algorithms
 
-Advanced Level Algorithms
+🔹 Advanced Level Algorithms
 
-How to Use This Repository
+🔹 How to Use This Repository
 
-Beginner Level Algorithms
+🧩 Beginner Level Algorithms
 
 These algorithms introduce the foundational concepts of data structures and algorithmic problem-solving. Start here if you are new to algorithms or want to strengthen your basics.
 
-Linear Search
+🌟 Linear Search
 
-Binary Search
+🌟 Binary Search
 
-Bubble Sort
+🌟 Bubble Sort
 
-Selection Sort
+🌟 Selection Sort
 
-Insertion Sort
+🌟 Insertion Sort
 
-Merge Sort
+🌟 Merge Sort
 
-Quick Sort
+🌟 Quick Sort
 
-Two Pointer Technique
+🌟 Two Pointer Technique
 
-Sliding Window Technique
+🌟 Sliding Window Technique
 
-Kadane's Algorithm (Maximum Subarray Sum)
+🌟 Kadane's Algorithm (Maximum Subarray Sum)
 
-Prefix Sum and Difference Arrays
+🌟 Prefix Sum and Difference Arrays
 
-Flood Fill Algorithm (DFS for Grid Problems)
+🌟 Flood Fill Algorithm (DFS for Grid Problems)
 
-Intermediate Level Algorithms
+🔥 Intermediate Level Algorithms
 
 This section focuses on core algorithms that form the backbone of problem-solving. These are highly relevant for coding interviews and competitive programming.
 
-Hashing (Maps, Sets, Frequency Count)
+💡 Hashing (Maps, Sets, Frequency Count)
 
-Heap/Priority Queue Algorithms
+💡 Heap/Priority Queue Algorithms
 
-Counting Sort and Bucket Sort
+💡 Counting Sort and Bucket Sort
 
-Binary Search on Answer (e.g., Minimum Capacity to Ship Packages)
+💡 Binary Search on Answer (e.g., Minimum Capacity to Ship Packages)
 
-Union-Find/Disjoint Set Union (DSU)
+💡 Union-Find/Disjoint Set Union (DSU)
 
-KMP Algorithm (Pattern Matching)
+💡 KMP Algorithm (Pattern Matching)
 
-Rabin-Karp Algorithm (String Matching)
+💡 Rabin-Karp Algorithm (String Matching)
 
-DFS and BFS (Graph Traversals)
+💡 DFS and BFS (Graph Traversals)
 
-Topological Sort (Kahn's Algorithm, DFS-based)
+💡 Topological Sort (Kahn's Algorithm, DFS-based)
 
-Dijkstra's Algorithm (Shortest Path)
+💡 Dijkstra's Algorithm (Shortest Path)
 
-Bellman-Ford Algorithm (Shortest Path with Negative Weights)
+💡 Bellman-Ford Algorithm (Shortest Path with Negative Weights)
 
-Floyd-Warshall Algorithm (All-Pairs Shortest Path)
+💡 Floyd-Warshall Algorithm (All-Pairs Shortest Path)
 
-Advanced Level Algorithms
+🌟 Advanced Level Algorithms
 
 For learners ready to tackle high-impact algorithms, this section covers advanced topics often encountered in real-world scenarios and competitive programming contests.
 
-Backtracking (e.g., N-Queens, Sudoku Solver, Permutations)
+🚀 Backtracking (e.g., N-Queens, Sudoku Solver, Permutations)
 
-Dynamic Programming on Subsets (Subset Sum, Knapsack)
+🚀 Dynamic Programming on Subsets (Subset Sum, Knapsack)
 
-Dynamic Programming on Strings (Longest Common Subsequence, Edit Distance)
+🚀 Dynamic Programming on Strings (Longest Common Subsequence, Edit Distance)
 
-Dynamic Programming on Grids (Unique Paths, Minimum Path Sum)
+🚀 Dynamic Programming on Grids (Unique Paths, Minimum Path Sum)
 
-Segment Trees (Range Queries, Lazy Propagation)
+🚀 Segment Trees (Range Queries, Lazy Propagation)
 
-Fenwick Tree/Binary Indexed Tree
+🚀 Fenwick Tree/Binary Indexed Tree
 
-Trie (Prefix Tree) (For String Problems)
+🚀 Trie (Prefix Tree) (For String Problems)
 
-Suffix Arrays and LCP Array
+🚀 Suffix Arrays and LCP Array
 
-Manacher's Algorithm (Longest Palindromic Substring)
+🚀 Manacher's Algorithm (Longest Palindromic Substring)
 
-Shortest Path in a DAG (Dynamic Programming + Topological Sort)
+🚀 Shortest Path in a DAG (Dynamic Programming + Topological Sort)
 
-Bit Manipulation Algorithms (e.g., Subset Generation, XOR Tricks)
+🚀 Bit Manipulation Algorithms (e.g., Subset Generation, XOR Tricks)
 
-How to Use This Repository
+📘 How to Use This Repository
 
 Clone the Repository:
 
@@ -110,7 +110,7 @@ Run Examples: Each algorithm folder contains detailed explanations, sample probl
 
 Contribute: Feel free to add new implementations or improve existing ones. Make a pull request, and we’ll review it promptly.
 
-Contributing
+🤝 Contributing
 
 Contributions are welcome! If you have additional algorithms or optimizations to share, please follow these steps:
 
