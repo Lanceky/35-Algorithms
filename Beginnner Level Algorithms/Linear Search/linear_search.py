@@ -15,6 +15,6 @@ if __name__ == "__main__":
     solution = Solution()
     
     nums = [1,2,3,4,5,6,7,0]
-    target = 2
+    target = 9
     result  = solution.linearsearch(nums, target)
-    print(result)
+    print(f"Index of target: {result}")
