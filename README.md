@@ -98,7 +98,7 @@ For learners ready to tackle high-impact algorithms, this section covers advance
 
 Clone the Repository:
 
-git clone https://github.com/your-repo/algorithms-mastery.git
+git clone https://github.com/Lanceky/35-Algorithms.git
 
 Navigate to a Level: Start with the beginner folder and gradually progress.
 
