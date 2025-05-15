@@ -1,4 +1,6 @@
 Sliding Window Technique Explained Simply
+![windowslidingvisual-ice-cream-shop](https://github.com/user-attachments/assets/020d0fc3-d346-4123-a952-425069374ec9)
+
 Problem:
 
 
