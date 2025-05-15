@@ -40,3 +40,9 @@ Step-by-Step Procedure
         Update global_max = max(global_max, current_max).
 
     Return global_max.
+
+Real-Life Analogy
+
+Imagine you’re a trader tracking daily profits/losses.
+You want to find the best consecutive days to hold a stock for maximum profit.
+Kadane’s Algorithm answers: "Should I keep holding or start fresh today?"
