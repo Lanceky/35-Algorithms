@@ -1,4 +1,6 @@
-Dijkstra's Algorithm: The Complete Guide
+![dijkstras](https://github.com/user-attachments/assets/c8390986-abf5-4f9b-8f5a-8b0023252a61)
+
+ Dijkstra'sAlgorithm: The Complete Guide
 1. Understanding the Algorithm
 
 Dijkstra's algorithm is a greedy, graph search algorithm that solves the single-source shortest path problem for a weighted graph with non-negative edge weights. It finds the shortest path from a starting node to all other nodes in the graph.
