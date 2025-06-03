@@ -1,108 +1,3 @@
-Topological Sort Algorithms
-
-Topological sort is an ordering of vertices in a directed acyclic graph (DAG) where for every directed edge (u, v), vertex u comes before v in the ordering. Here are two common implementations:
-1. Kahn's Algorithm (BFS-based)
-python
-
-from collections import deque
-
-def topological_sort_kahn(graph):
-    # Calculate in-degree for each node
-    in_degree = {node: 0 for node in graph}
-    for node in graph:
-        for neighbor in graph[node]:
-            in_degree[neighbor] += 1
-    
-    # Initialize queue with nodes having 0 in-degree
-    queue = deque([node for node in graph if in_degree[node] == 0])
-    topo_order = []
-    
-    while queue:
-        node = queue.popleft()
-        topo_order.append(node)
-        
-        # Reduce in-degree for neighbors
-        for neighbor in graph[node]:
-            in_degree[neighbor] -= 1
-            if in_degree[neighbor] == 0:
-                queue.append(neighbor)
-    
-    # Check for cycles
-    if len(topo_order) != len(graph):
-        return None  # Graph has at least one cycle
-    
-    return topo_order
-
-2. DFS-based Algorithm
-python
-
-def topological_sort_dfs(graph):
-    visited = set()
-    temp_mark = set()  # For cycle detection
-    topo_order = []
-    
-    def dfs(node):
-        if node in temp_mark:
-            return False  # Cycle detected
-        if node in visited:
-            return True
-        
-        temp_mark.add(node)
-        for neighbor in graph.get(node, []):
-            if not dfs(neighbor):
-                return False
-        
-        temp_mark.remove(node)
-        visited.add(node)
-        topo_order.append(node)
-        return True
-    
-    for node in graph:
-        if node not in visited:
-            if not dfs(node):
-                return None  # Graph has at least one cycle
-    
-    return topo_order[::-1]  # Reverse to get topological order
-
-Usage Example
-python
-
-# Example DAG
-graph = {
-    'A': ['B', 'C'],
-    'B': ['D'],
-    'C': ['D'],
-    'D': ['E'],
-    'E': []
-}
-
-print("Kahn's algorithm result:", topological_sort_kahn(graph))
-print("DFS-based algorithm result:", topological_sort_dfs(graph))
-
-Key Differences
-
-    Kahn's Algorithm:
-
-        Uses BFS approach
-
-        Starts with nodes having no incoming edges
-
-        Explicitly calculates in-degrees
-
-        Naturally detects cycles
-
-    DFS-based Algorithm:
-
-        Uses DFS approach
-
-        Processes nodes until reaching "sink" nodes (no outgoing edges)
-
-        Uses temporary marks for cycle detection
-
-        Needs to reverse the result at the end
-
-Both algorithms have O(V+E) time complexity for a graph with V vertices and E edges.
-it's the explanation ( comprehensive explanation first what it is where and when it's used , how it's used examples of where they can be used in practical life) , real world analogies then the problem statement followed by it's solution in python
 Comprehensive Guide to Topological Sort
 1. What is Topological Sort?
 
@@ -186,3 +81,10 @@ Solution 1: Kahn's Algorithm (BFS-Based)
     Starts with nodes that have no dependencies (in-degree = 0).
 
     Removes dependencies as it processes nodes.
+
+Solution 2: DFS-Based Algorithm
+
+
+    Uses post-order traversal (nodes are added after their dependencies).
+
+    Detects cycles using temporary marks.
