@@ -1,7 +1,8 @@
 Manacher's Algorithm: Finding the Longest Palindromic Substring
 1. What is Manacher's Algorithm?
 
-Manacher's Algorithm is an O(n) solution for finding the longest palindromic substring in a given string. Unlike brute-force (O(n³)) or dynamic programming (O(n²)) approaches, it achieves linear time by exploiting palindrome symmetry.
+Manacher's Algorithm is an O(n) solution for finding the longest palindromic substring (sequence of elements that read the same forward and backwards e.g radar)
+in a given string. Unlike brute-force (O(n³)) or dynamic programming (O(n²)) approaches, it achieves linear time by exploiting palindrome symmetry.
 Key Features
 
     Linear Time (O(n)): Much faster than DP (O(n²))
